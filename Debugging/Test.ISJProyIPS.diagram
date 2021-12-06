@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ioTModelDiagram dslVersion="1.0.0.0" Id="5488795d-0450-4c53-9a56-4313252577fd" absoluteBounds="0, 0, 14.625, 8.5" name="Test">
+  <ioTModelMoniker Id="2626ff91-2501-4bb5-80a3-512df40c72a9" />
+  <nestedChildShapes>
+    <arduinoImg Id="0bf5c9b3-add2-40a0-a14e-087791eb09e0" absoluteBounds="4.25, 1.75, 3.75, 2.8229167461395264">
+      <arduinoMoniker Id="8d6a8d38-8c2d-45c7-be7f-871afcccc596" />
+    </arduinoImg>
+    <controllerGeom Id="c7458b0c-11cb-4946-80d5-8d9456f4ba74" absoluteBounds="10.125, 0.75, 4.25, 4.375">
+      <contollerMoniker Id="e33497fe-c953-4a2e-ab30-74d9fbab53ef" />
+    </controllerGeom>
+    <iOImg Id="40e5f85f-e5be-421f-979f-9bbeec09b2e6" absoluteBounds="12.75, 1.625, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="dbc4e47f-5e7f-4cd8-84fe-7ff23cb1a96a" />
+    </iOImg>
+    <iOImg Id="4fbae92c-352a-4edc-b9f1-ef8581b6b108" absoluteBounds="10.625, 0.875, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="0dab9756-3942-4e1b-ab0c-da7efebb0a9f" />
+    </iOImg>
+    <iOImg Id="4cab0d69-1e70-4abd-8f28-3c00bfdff674" absoluteBounds="12.625, 1, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="39004f8b-8f6d-4b33-bcc2-f1b3aabf3610" />
+    </iOImg>
+    <iOImg Id="d5403a1a-34e1-4bca-b117-20f5682cd9a9" absoluteBounds="12.625, 2.25, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="25badea0-4457-4f65-ab98-64541d2185de" />
+    </iOImg>
+    <iOImg Id="6c0ffd86-bf5f-4abf-a0e0-d2b55e8e40cd" absoluteBounds="12.625, 3, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="d4a304a6-61b2-4be8-950f-e2336263d6fb" />
+    </iOImg>
+    <iOImg Id="3c7c56e6-c3a1-4f30-8d52-691cf292411e" absoluteBounds="12.5, 3.625, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="8d3667a8-5d2a-4ca2-bfc7-338330b01540" />
+    </iOImg>
+    <ifImg Id="bc44a6c4-b47c-46a2-b756-4ae8c93c0566" absoluteBounds="10.625, 1.875, 0.52076822519302368, 0.52076822519302368">
+      <ifMoniker Id="f2358b5f-b56f-4f7c-8b3a-1287584cdb9f" />
+    </ifImg>
+    <ifImg Id="3c205624-ea00-4267-bced-33424048cbb1" absoluteBounds="10.625, 3.25, 0.52076822519302368, 0.52076822519302368">
+      <ifMoniker Id="52713268-e399-49c9-9f9f-36dac395976f" />
+    </ifImg>
+    <delayImg Id="68b08f45-9b55-4edd-a943-eb8bda25c755" absoluteBounds="10.75, 3.875, 0.52076822519302368, 0.52076822519302368">
+      <delayMoniker Id="43aee2ab-2a94-4b36-8e6b-1847e387f875" />
+    </delayImg>
+    <ledActuarionImg Id="2036c66a-658a-4919-9ea9-1d6260fc88a5" absoluteBounds="3.125, 3.125, 0.33000001311302185, 0.42666667699813843">
+      <ledActuatorMoniker Id="e4a2edb0-173b-4f53-a011-ea1928dc0565" />
+    </ledActuarionImg>
+    <buzzerActuatorImg Id="0ae9914e-60d4-4329-91bc-b101fed9b2f3" absoluteBounds="6, 5.125, 1.3020833730697632, 0.8125">
+      <buzzerActuatorMoniker frequency="/2626ff91-2501-4bb5-80a3-512df40c72a9/800" />
+    </buzzerActuatorImg>
+    <infraredImg Id="a76b2e35-e31e-40fe-a416-15eb9191339f" absoluteBounds="4.75, 0.5, 1.25, 1.25">
+      <infraredMoniker Id="e31c3e51-20b1-4963-ae4b-ac0ab7c6daae" />
+    </infraredImg>
+    <ledActuarionImg Id="f95cf524-f555-442d-a1f6-7eda525d1596" absoluteBounds="3, 2.25, 0.33000001311302185, 0.42666667699813843">
+      <ledActuatorMoniker Id="13113312-ea53-4f42-b9b3-7bb97b3214fa" />
+    </ledActuarionImg>
+    <connecArduContro Id="7ce58f14-6ecd-4149-b39f-137f60ec3bbd" edgePoints="[(8 : 3.16145837306976); (10.125 : 3.16145837306976)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <arduinoReferencesContollerMoniker Id="7e203ebd-ce45-4783-8c43-722aba6602f1" />
+      <nodes>
+        <arduinoImgMoniker Id="0bf5c9b3-add2-40a0-a14e-087791eb09e0" />
+        <controllerGeomMoniker Id="c7458b0c-11cb-4946-80d5-8d9456f4ba74" />
+      </nodes>
+    </connecArduContro>
+    <connecIfIo Id="fcb9ef8c-5299-48ac-92ad-ae83ceb651dd" edgePoints="[(11.145768225193 : 2.00517642498016); (12.75 : 2.00517642498016)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <ifReferencesIOMoniker Id="4267162d-d964-4631-8c56-fb8b0be3a28d" />
+      <nodes>
+        <ifImgMoniker Id="bc44a6c4-b47c-46a2-b756-4ae8c93c0566" />
+        <iOImgMoniker Id="40e5f85f-e5be-421f-979f-9bbeec09b2e6" />
+      </nodes>
+    </connecIfIo>
+    <connecIfIo Id="f3b4e15a-db99-4e48-94b7-9e736d389bcc" edgePoints="[(10.9895833333333 : 1.875); (10.9895833333333 : 1.48434309164683); (12.0853125 : 1.48434309164683); (12.0853125 : 1.25517642498016); (12.625 : 1.25517642498016)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <ifReferencesIOMoniker Id="5b40609e-dc65-4515-9c12-20a7ffb640e4" />
+      <nodes>
+        <ifImgMoniker Id="bc44a6c4-b47c-46a2-b756-4ae8c93c0566" />
+        <iOImgMoniker Id="4cab0d69-1e70-4abd-8f28-3c00bfdff674" />
+      </nodes>
+    </connecIfIo>
+    <connecIfIo Id="480c0cc3-cd0b-45e9-b56e-6c9926723546" edgePoints="[(11.145768225193 : 2.32288411259651); (12.625 : 2.32288411259651)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <ifReferencesIOMoniker Id="c5ba6b99-fdbc-415c-bc83-8fac5961dabe" />
+      <nodes>
+        <ifImgMoniker Id="bc44a6c4-b47c-46a2-b756-4ae8c93c0566" />
+        <iOImgMoniker Id="d5403a1a-34e1-4bca-b117-20f5682cd9a9" />
+      </nodes>
+    </connecIfIo>
+    <connecIfIo Id="9e1f9c08-256e-497f-bc1a-5cfa8efa7036" edgePoints="[(11.145768225193 : 3.38017642498016); (12.625 : 3.38017642498016)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <ifReferencesIOMoniker Id="b47ec4e6-c223-4d32-9b95-d21a40ba4433" />
+      <nodes>
+        <ifImgMoniker Id="3c205624-ea00-4267-bced-33424048cbb1" />
+        <iOImgMoniker Id="6c0ffd86-bf5f-4abf-a0e0-d2b55e8e40cd" />
+      </nodes>
+    </connecIfIo>
+    <connecIfIo Id="48f0b68e-f519-477e-ada7-fa6daf2c4269" edgePoints="[(11.145768225193 : 3.69788411259651); (12.5 : 3.69788411259651)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <ifReferencesIOMoniker Id="cd542282-94d7-4209-a9d0-3764607fa401" />
+      <nodes>
+        <ifImgMoniker Id="3c205624-ea00-4267-bced-33424048cbb1" />
+        <iOImgMoniker Id="3c7c56e6-c3a1-4f30-8d52-691cf292411e" />
+      </nodes>
+    </connecIfIo>
+    <connec_Ard_Actu Id="75936507-7558-4910-8089-56e8a37c33bf" edgePoints="[(4.25 : 3.33833333849907); (3.45500001311302 : 3.33833333849907)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <arduinoReferencesActuatorsMoniker Id="c495b87d-5958-4c30-a45f-118cc121ec5c" />
+      <nodes>
+        <arduinoImgMoniker Id="0bf5c9b3-add2-40a0-a14e-087791eb09e0" />
+        <ledActuarionImgMoniker Id="2036c66a-658a-4919-9ea9-1d6260fc88a5" />
+      </nodes>
+    </connec_Ard_Actu>
+    <connec_Ard_Actu Id="c81b497c-ad4d-400b-ad48-66bcfa950f47" edgePoints="[(6.65104168653488 : 4.57291674613953); (6.65104168653488 : 5.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <arduinoReferencesActuatorsMoniker Id="56512038-57d1-4b78-9202-b88df0988de8" />
+      <nodes>
+        <arduinoImgMoniker Id="0bf5c9b3-add2-40a0-a14e-087791eb09e0" />
+        <buzzerActuatorImgMoniker Id="0ae9914e-60d4-4329-91bc-b101fed9b2f3" />
+      </nodes>
+    </connec_Ard_Actu>
+    <connecIoActua Id="0877d51c-c30f-41bb-87c1-645fce220a64" edgePoints="[(13.145768225193 : 1.18851722375002); (13.520768225193 : 1.18851722375002); (13.520768225193 : 5.5312505); (7.30208337306976 : 5.5312505)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <iOReferencesActuatorsMoniker Id="89178b33-f894-4b6c-b286-a1b5bf505283" />
+      <nodes>
+        <iOImgMoniker Id="4cab0d69-1e70-4abd-8f28-3c00bfdff674" />
+        <buzzerActuatorImgMoniker Id="0ae9914e-60d4-4329-91bc-b101fed9b2f3" />
+      </nodes>
+    </connecIoActua>
+    <ardSens Id="e774a4ee-c758-4892-be58-9dee9c694b90" edgePoints="[(7.0000005 : 1.75); (7.0000005 : 1.09375); (6 : 1.09375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <arduinoReferencesSensorsMoniker Id="4f496de9-88c8-483b-82d4-36baaec11af9" />
+      <nodes>
+        <arduinoImgMoniker Id="0bf5c9b3-add2-40a0-a14e-087791eb09e0" />
+        <infraredImgMoniker Id="a76b2e35-e31e-40fe-a416-15eb9191339f" />
+      </nodes>
+    </ardSens>
+    <connec_Ard_Actu Id="7fce66f3-33c5-4854-bcb7-9b78fc385aa0" edgePoints="[(4.25 : 2.46333333849907); (3.33000001311302 : 2.46333333849907)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <arduinoReferencesActuatorsMoniker Id="2b5517d3-f8d2-43e9-b6a3-df835fd2de8d" />
+      <nodes>
+        <arduinoImgMoniker Id="0bf5c9b3-add2-40a0-a14e-087791eb09e0" />
+        <ledActuarionImgMoniker Id="f95cf524-f555-442d-a1f6-7eda525d1596" />
+      </nodes>
+    </connec_Ard_Actu>
+    <iOImg Id="d0f918b6-0ce5-400d-b6c0-1882937fe870" absoluteBounds="10.75, 4.5, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="838e5ba6-6dc6-4d8a-bac9-e5d389e68556" />
+    </iOImg>
+  </nestedChildShapes>
+</ioTModelDiagram>

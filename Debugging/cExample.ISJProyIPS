@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ioTModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2626ff91-2501-4bb5-80a3-512df40c72a9" xmlns="http://schemas.microsoft.com/dsltools/JPBSDSJDFProyectoIPS">
+  <arduino>
+    <ioTModelHasArduino Id="209da8de-4760-40a8-ad35-732f3d7f2d6f">
+      <arduino Id="72858e11-6478-4b61-a8ef-ddc077304851">
+        <sensors>
+          <arduinoReferencesSensors Id="f01fe70e-3407-43c0-aa7b-315f244ea1d3">
+            <lightSensorMoniker Id="b414a8e7-de1a-4be6-a067-299285df5405" />
+          </arduinoReferencesSensors>
+        </sensors>
+        <actuators>
+          <arduinoReferencesActuators Id="8cf0f832-a932-4f54-933c-8064bb0f72b9">
+            <lCDActuatorMoniker Id="14afa8d8-e530-42a3-b7db-51bae27c37e6" />
+          </arduinoReferencesActuators>
+        </actuators>
+        <contoller>
+          <arduinoReferencesContoller Id="a16d6a01-7a09-423f-bd02-9f277a1d3d9f">
+            <contollerMoniker Id="35f45cd5-7ccb-41f0-9a92-ad837cc4e363" />
+          </arduinoReferencesContoller>
+        </contoller>
+      </arduino>
+    </ioTModelHasArduino>
+  </arduino>
+  <sensors>
+    <ioTModelHasSensors Id="ab159c00-2c51-47f2-8148-500fd977d13e">
+      <lightSensor Id="b414a8e7-de1a-4be6-a067-299285df5405" name="lightPin" pin="A0" mode="INPUT" />
+    </ioTModelHasSensors>
+  </sensors>
+  <contoller>
+    <ioTModelHasContoller Id="dc640d4c-fc25-48b6-80ca-dbc78550fc53">
+      <contoller Id="35f45cd5-7ccb-41f0-9a92-ad837cc4e363">
+        <iO>
+          <contollerHasIO Id="b17855a4-cd50-486a-9e1e-8df196548dbb">
+            <iO Id="adb2e0d0-2c2b-4e19-96b8-131aeb95d9fb" type="LOW" nameActOSen="A0" order="0" deviceType="Sensor" varName="luminosidad" />
+          </contollerHasIO>
+          <contollerHasIO Id="4e9fbc89-e564-4453-97c9-35e7cabf7523">
+            <iO Id="86167971-d0a6-4797-b43e-93fd6cc32644" type="LOW" nameActOSen="display" order="2" deviceType="LCD">
+              <actuators>
+                <iOReferencesActuators Id="d2df6e04-6356-4899-9fad-ef9de8a5c8b4">
+                  <lCDActuatorMoniker Id="14afa8d8-e530-42a3-b7db-51bae27c37e6" />
+                </iOReferencesActuators>
+              </actuators>
+            </iO>
+          </contollerHasIO>
+          <contollerHasIO Id="0d50533c-b3db-42b4-9778-91a352eba3c8">
+            <iO Id="1a0ce91f-3dd2-4f54-9974-fffd7ce0143d" type="LOW" nameActOSen="display" order="4" deviceType="LCD">
+              <actuators>
+                <iOReferencesActuators Id="7196136c-c878-4b25-88a3-06020407ca75">
+                  <lCDActuatorMoniker Id="14afa8d8-e530-42a3-b7db-51bae27c37e6" />
+                </iOReferencesActuators>
+              </actuators>
+            </iO>
+          </contollerHasIO>
+          <contollerHasIO Id="7cc5888b-ef3b-43fd-bdae-6c0d36f4480c">
+            <iO Id="ac8927f2-1078-4104-a431-5645ae9cc733" type="LOW" nameActOSen="display" order="6" deviceType="LCD">
+              <actuators>
+                <iOReferencesActuators Id="76fd5ab2-3fa6-4d7d-ab94-ea37b96490a6">
+                  <lCDActuatorMoniker Id="14afa8d8-e530-42a3-b7db-51bae27c37e6" />
+                </iOReferencesActuators>
+              </actuators>
+            </iO>
+          </contollerHasIO>
+          <contollerHasIO Id="a02a5a1d-8735-4e28-b1e4-bf666bf62c84">
+            <iO Id="bbfffc4d-ecf3-4f19-98f5-10c31a1b6b59" type="LOW" nameActOSen="display" order="8" deviceType="LCD">
+              <actuators>
+                <iOReferencesActuators Id="b3ee37f6-b66c-4430-bc1f-c6006a67693f">
+                  <lCDActuatorMoniker Id="14afa8d8-e530-42a3-b7db-51bae27c37e6" />
+                </iOReferencesActuators>
+              </actuators>
+            </iO>
+          </contollerHasIO>
+          <contollerHasIO Id="2681494c-d4ea-441c-9120-a6234dcc679a">
+            <iO Id="be7d233e-6743-441b-acaf-6b0ecfbeaf51" type="LOW" nameActOSen="display" order="9" deviceType="LCD">
+              <actuators>
+                <iOReferencesActuators Id="3a4c86a3-1063-465e-861e-ebb2d3195d5b">
+                  <lCDActuatorMoniker Id="14afa8d8-e530-42a3-b7db-51bae27c37e6" />
+                </iOReferencesActuators>
+              </actuators>
+            </iO>
+          </contollerHasIO>
+        </iO>
+        <if>
+          <contollerHasIf Id="adeff722-866f-4922-ab95-89f6872052a2">
+            <if Id="cb1ed86e-937c-4b53-bd21-94546aadb93b" operator1="luminosidad" condition="&lt;" operator2="250" order="1" finalOrder="3">
+              <iO>
+                <ifReferencesIO Id="bbad214e-3e79-43c5-a9e2-a94fa211c8d2">
+                  <iOMoniker Id="86167971-d0a6-4797-b43e-93fd6cc32644" />
+                </ifReferencesIO>
+              </iO>
+            </if>
+          </contollerHasIf>
+          <contollerHasIf Id="bdd79573-a878-44bf-8944-8f8996e5a7e9">
+            <if Id="257e2550-c04f-4315-9a57-b413504694af" operator1="luminosidad" condition="&gt;" operator2="250" order="3" finalOrder="5">
+              <iO>
+                <ifReferencesIO Id="9c6cebb8-69aa-4b04-80cb-1889ebc5bf2a">
+                  <iOMoniker Id="1a0ce91f-3dd2-4f54-9974-fffd7ce0143d" />
+                </ifReferencesIO>
+              </iO>
+            </if>
+          </contollerHasIf>
+          <contollerHasIf Id="771715cd-115b-4cd8-9631-b25c4147fc8d">
+            <if Id="9634e4c3-c190-4da0-8f0b-ab7cedaffe8e" operator1="luminosidad" condition="&gt;" operator2="500" order="5" finalOrder="7">
+              <iO>
+                <ifReferencesIO Id="3a35a232-6a5e-4bd6-aafc-e1e6b68ab6c4">
+                  <iOMoniker Id="ac8927f2-1078-4104-a431-5645ae9cc733" />
+                </ifReferencesIO>
+              </iO>
+            </if>
+          </contollerHasIf>
+          <contollerHasIf Id="ef65b6f6-5b78-4336-b918-7e6f6f933c1c">
+            <if Id="9256046a-2761-4dd1-b8f6-07bfc9e6f54e" operator1="luminosidad" condition="&gt;" operator2="750" order="7" finalOrder="9">
+              <iO>
+                <ifReferencesIO Id="7d532ea9-6c9c-40bf-af12-8ffe594d6cfb">
+                  <iOMoniker Id="bbfffc4d-ecf3-4f19-98f5-10c31a1b6b59" />
+                </ifReferencesIO>
+              </iO>
+            </if>
+          </contollerHasIf>
+        </if>
+        <delay>
+          <contollerHasDelay Id="7a742674-d4f5-4341-ac7f-2a7116dba393">
+            <delay Id="8a85c7fa-69e3-409f-b3b3-faf8ddb5121c" time="2000" order="10" />
+          </contollerHasDelay>
+        </delay>
+      </contoller>
+    </ioTModelHasContoller>
+  </contoller>
+  <actuators>
+    <ioTModelHasActuators Id="0118cd44-96c5-41cf-93d1-af00698f94b9">
+      <lCDActuator Id="14afa8d8-e530-42a3-b7db-51bae27c37e6" row="0" column="0" name="display" text="NIVEL: Oscuro" pin1="0x27" pin2="20" pin3="4" />
+    </ioTModelHasActuators>
+  </actuators>
+</ioTModel>

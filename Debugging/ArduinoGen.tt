@@ -1,0 +1,323 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".ino" #>
+<#@ JPBSDSJDFProyectoIPS processor="JPBSDSJDFProyectoIPSDirectiveProcessor" requires="fileName='Test.ISJProyIPS'" #>
+<#
+//DECLARATION OF VARIABLES*****************************************************
+ WriteLine("");
+
+ if(this.IoTModel.Contoller.Count > 0)
+     { 
+       foreach ( Contoller variotD in this.IoTModel.Contoller)
+       {
+
+
+       if(variotD.IO.Count > 0)
+            {
+		    
+            foreach (IO vario in variotD.IO)
+                {
+                     if(vario.VarName != ""){
+                            WriteLine("int "+ vario.VarName + " = " + "0" + ";");;
+                     }
+            
+                }
+            
+            
+            }
+
+
+
+       }
+  }
+
+
+   if(this.IoTModel.Actuators.Count > 0)
+     { 
+       foreach ( Actuators varled in this.IoTModel.Actuators)
+       { 
+          if(varled is LedActuator) {
+            LedActuator led = (LedActuator)varled;
+            WriteLine("int "+ led.Name + " = " + led.Pin + ";");
+      
+          }
+       }//endforeach devicesd
+      
+       foreach ( Actuators varlcd in this.IoTModel.Actuators)
+       { 
+        if(varlcd is BuzzerActuator) {
+            BuzzerActuator buzzer = (BuzzerActuator)varlcd;
+            WriteLine("int "+ buzzer.Name + " = " + buzzer.Pin + ";");
+      
+          }
+          if(varlcd is LCDActuator) {
+            LCDActuator lcd = (LCDActuator)varlcd;
+            WriteLine("#include <LiquidCrystal_I2C.h>");
+            WriteLine("LiquidCrystal_I2C " + lcd.Name + "("+ lcd.Pin1+ "," +lcd.Pin2 + "," + lcd.Pin3 +");");
+          }
+          if(varlcd is DCMotorActuator) {
+            DCMotorActuator dc = (DCMotorActuator)varlcd;
+            WriteLine("int "+ dc.Name + " = " + dc.Pin + ";");
+          }
+
+       }//endforeach devicesd
+       }//end actuators
+
+     if(this.IoTModel.Sensors.Count > 0)
+     { 
+       foreach ( Sensors varinfra in this.IoTModel.Sensors)
+       { 
+          if(varinfra is Infrared) {
+            Infrared ir = (Infrared)varinfra;
+            WriteLine("int "+ ir.Name + " = " + ir.Pin + ";");
+      
+          }
+       }//endforeach devicesd
+       foreach ( Sensors vartemp in this.IoTModel.Sensors)
+       { 
+          if(vartemp is Temperatue) {
+            Temperatue temp = (Temperatue)vartemp;
+            WriteLine("int "+ temp.Name + " = " + temp.Pin + ";");
+      
+          }
+       }//endforeach devicesd
+       foreach ( Sensors varlightsen in this.IoTModel.Sensors)
+       { 
+          if(varlightsen is LightSensor) {
+            LightSensor lsensor = (LightSensor)varlightsen;
+            WriteLine("int "+ lsensor.Name + " = " + lsensor.Pin + ";");
+      
+          }
+       }//endforeach devicesd
+
+      }//End sensors
+     
+// END VARIABLES***********************************************************
+
+// ARDUINO: VOID SETUP******************************************************
+WriteLine("");
+     if(this.IoTModel.Arduino.Count > 0)
+     {
+          WriteLine("void setup() {");
+          WriteLine("Serial.begin(9600);");
+          if(this.IoTModel.Sensors.Count > 0)
+            {
+            foreach ( Sensors varirsen in this.IoTModel.Sensors)
+             { 
+                if(varirsen is Infrared) {
+                    Infrared ir = (Infrared)varirsen;
+                    WriteLine("pinMode(" + ir.Name + "," + ir.Mode + ");");
+               }
+             }//endforeach devicesd
+            }//endifdevices
+
+          if(this.IoTModel.Actuators.Count > 0)
+            {
+            foreach ( Actuators varled in this.IoTModel.Actuators)
+             { 
+                if(varled is LedActuator) {
+                    LedActuator led = (LedActuator)varled;
+                    WriteLine("pinMode(" + led.Name + "," + led.Mode + ");");
+                }
+
+                if(varled is LCDActuator) {
+                    LCDActuator lcd = (LCDActuator)varled;
+                    WriteLine(lcd.Name + ".init();");
+                    WriteLine(lcd.Name + ".backlight();");    
+                }
+             }//endforeach devicesd
+            }//endifdevices          
+         WriteLine("}");
+     }//endifdevices
+// END ARDUINO: VOID SETUP *************************************************
+
+
+
+// START: TAKING BIGGEST ORDER *************************************************
+WriteLine("");
+int varbiggest = 0;
+
+if(this.IoTModel.Contoller.Count > 0)
+     { 
+       foreach ( Contoller variotD in this.IoTModel.Contoller)
+       {
+       if(variotD.If.Count > 0)
+            {
+		  foreach (If varsen in variotD.If)
+           {
+	        if(varsen.Order > varbiggest){
+                varbiggest = varsen.Order;
+            }
+           } 
+		   }
+     
+        if(variotD.IO.Count > 0)
+            {
+		    
+            foreach (IO vario in variotD.IO)
+                {
+                     if(vario.Order > varbiggest){
+                           varbiggest = vario.Order;
+                     }
+            
+                }           
+            }
+         
+           if(variotD.Delay.Count > 0)
+            {
+		  foreach (Delay vardel in variotD.Delay)
+           {
+            if(vardel.Order > varbiggest){
+                varbiggest = vardel.Order;
+            }
+           }
+		  }
+       } //end loop controller
+  }//end if controller
+ varbiggest = varbiggest + 1;
+
+// END: TAKING BIGGEST ORDER *************************************************
+
+
+// CONTROLLER: VOID LOOP**************************************************
+
+int varcounter = 0;
+bool ifdone = true;
+bool finishwithif = false; 
+
+   if(this.IoTModel.Contoller.Count > 0)
+     { WriteLine("void loop() {");
+       foreach ( Contoller variotD in this.IoTModel.Contoller)
+       {
+       while(varcounter < varbiggest){
+		if(variotD.If.Count > 0)
+            {
+		  foreach (If varsen in variotD.If)
+           {
+           if(varsen.Order == varcounter){
+                ifdone = false;
+	            WriteLine("if (" + varsen.Operator1 + " " + varsen.Condition + " " + varsen.Operator2 + ")");
+                WriteLine("{");
+                finishwithif = true; 
+           }
+           if(varsen.FinalOrder == varcounter){
+                ifdone = true;
+                WriteLine("}");
+                finishwithif = false; 
+           }
+           if(varcounter > varsen.Order && varcounter < varsen.FinalOrder){
+               if(varsen.IO.Count > 0)
+                {
+		    
+                foreach (IO vario in varsen.IO)
+                    {
+                        if(vario.Order == varcounter){
+
+                            if(vario.DeviceType == "Sensor"){
+                                WriteLine(vario.VarName + " = " + "digitalRead(" + vario.NameActOSen + ");");
+                            }
+                            if(vario.DeviceType == "Led"){
+                                WriteLine("digitalWrite(" + vario.NameActOSen + "," + vario.Type + ");");
+                            }
+                            if(vario.DeviceType == "Buzzer"){
+                                   BuzzerActuator buzzer = (BuzzerActuator)vario.Actuators;                                  
+                                   WriteLine(buzzer.Mode + "("+ buzzer.Name + ", " + buzzer.Frequency + ", " + buzzer.Duration + ");");
+                            }
+                            if(vario.DeviceType == "LCD"){
+                                   LCDActuator lcd = (LCDActuator)vario.Actuators;                                  
+                                   WriteLine(lcd.Name + ".clear();");
+                                   WriteLine(lcd.Name + ".setCursor(" + lcd.Row + "," + lcd.Column + ");");
+                                   WriteLine(lcd.Name + ".print('"+ lcd.Text + "');");
+                            }
+                            if(vario.DeviceType == "Motor") {
+                                DCMotorActuator dc = (DCMotorActuator)vario.Actuators;
+                                WriteLine("analogWrite(" + dc.Name + ", " + dc.Speed + ");"); 
+                             }
+
+
+                        }
+            
+                    }
+            
+            
+                }
+         
+               if(varsen.Delay.Count > 0)
+                {
+		      foreach (Delay vardel in varsen.Delay)
+               {
+               if(vardel.Order == varcounter){
+	                WriteLine("delay("+ vardel.time + ");");
+               }
+               }
+		       }
+
+
+           
+            
+               
+
+            } //end if checking
+            
+
+           } //end for if
+		   }//end if if         
+           if(ifdone == true){     
+                if(variotD.IO.Count > 0)
+                    {		    
+                    foreach (IO vario in variotD.IO)
+                        {
+                            if(vario.Order == varcounter){
+                                if(vario.DeviceType == "Sensor"){
+                                    WriteLine(vario.VarName + " = " + "digitalRead(" + vario.NameActOSen + ");");
+                                }
+                                if(vario.DeviceType == "Led"){
+                                    WriteLine("digitalWrite(" + vario.NameActOSen + "," + vario.Type + ");");
+                                }
+                                if(vario.DeviceType == "Buzzer"){
+                                   BuzzerActuator buzzer = (BuzzerActuator)vario.Actuators;                                  
+                                   WriteLine(buzzer.Mode + "("+ buzzer.Name + ", " + buzzer.Frequency + ", " + buzzer.Duration + ");");
+                                }
+                                if(vario.DeviceType == "LCD"){
+                                   LCDActuator lcd = (LCDActuator)vario.Actuators;                                  
+                                   WriteLine(lcd.Name + ".clear();");
+                                   WriteLine(lcd.Name + ".setCursor(" + lcd.Row + "," + lcd.Column + ");");
+                                   WriteLine(lcd.Name + ".print('"+ lcd.Text + "');");
+                                }
+                                if(vario.DeviceType == "Motor") {
+                                    DCMotorActuator dc = (DCMotorActuator)vario.Actuators;
+                                    WriteLine("analowWrite(" + dc.Name + ", " + dc.Speed + ");"); 
+                                }
+                            }
+            
+                        }                       
+                    }         
+                   if(variotD.Delay.Count > 0)
+                    {
+		          foreach (Delay vardel in variotD.Delay)
+                   {
+                   if(vardel.Order == varcounter){
+	                    WriteLine("delay("+ vardel.time + ");");
+                   }
+                   }
+		           }
+
+           }                           
+            varcounter = varcounter + 1;
+            
+           }
+
+
+       } //end loop controller
+
+       if (finishwithif == true){
+            WriteLine("}");
+       } 
+
+       WriteLine("}");
+  }//end if controller
+
+  
+// CONTROLLER END: VOID LOOP**************************************************
+  
+
+ #>

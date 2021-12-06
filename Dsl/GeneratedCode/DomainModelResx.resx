@@ -1,0 +1,1675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.JPBSDSJDFProyectoIPSDomainModel.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.JPBSDSJDFProyectoIPS</value>
+    <comment>Description for DslLibrary &apos;JPBSDSJDFProyectoIPS&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.JPBSDSJDFProyectoIPSDomainModel.DisplayName" xml:space="preserve">
+    <value>JPBSDSJDFProyectoIPS</value>
+    <comment>DisplayName for DslLibrary &apos;JPBSDSJDFProyectoIPS&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModel.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;IoTModel&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModel.DisplayName" xml:space="preserve">
+    <value>Io TModel</value>
+    <comment>DisplayName for DomainClass &apos;IoTModel&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Arduino.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Arduino</value>
+    <comment>Description for DomainClass &apos;Arduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Arduino.DisplayName" xml:space="preserve">
+    <value>Arduino</value>
+    <comment>DisplayName for DomainClass &apos;Arduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Sensors.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Sensors</value>
+    <comment>Description for DomainClass &apos;Sensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Sensors.DisplayName" xml:space="preserve">
+    <value>Sensors</value>
+    <comment>DisplayName for DomainClass &apos;Sensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue</value>
+    <comment>Description for DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue.DisplayName" xml:space="preserve">
+    <value>Temperatue</value>
+    <comment>DisplayName for DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue/Scale.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue.Scale</value>
+    <comment>Description for DomainProperty &apos;Scale&apos; on DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue/Scale.DisplayName" xml:space="preserve">
+    <value>Scale</value>
+    <comment>DisplayName for DomainProperty &apos;Scale&apos; on DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue/Name.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue/Pin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue.Pin</value>
+    <comment>Description for DomainProperty &apos;Pin&apos; on DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue/Pin.DisplayName" xml:space="preserve">
+    <value>Pin</value>
+    <comment>DisplayName for DomainProperty &apos;Pin&apos; on DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue/Mode.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue.Mode</value>
+    <comment>Description for DomainProperty &apos;Mode&apos; on DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Temperatue/Mode.DisplayName" xml:space="preserve">
+    <value>Mode</value>
+    <comment>DisplayName for DomainProperty &apos;Mode&apos; on DomainClass &apos;Temperatue&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Contoller.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Contoller</value>
+    <comment>Description for DomainClass &apos;Contoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Contoller.DisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>DisplayName for DomainClass &apos;Contoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Infrared.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Infrared</value>
+    <comment>Description for DomainClass &apos;Infrared&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Infrared.DisplayName" xml:space="preserve">
+    <value>Infrared</value>
+    <comment>DisplayName for DomainClass &apos;Infrared&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Infrared/Name.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Infrared.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Infrared&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Infrared/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Infrared&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Infrared/Pin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Infrared.Pin</value>
+    <comment>Description for DomainProperty &apos;Pin&apos; on DomainClass &apos;Infrared&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Infrared/Pin.DisplayName" xml:space="preserve">
+    <value>Pin</value>
+    <comment>DisplayName for DomainProperty &apos;Pin&apos; on DomainClass &apos;Infrared&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Infrared/Mode.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Infrared.Mode</value>
+    <comment>Description for DomainProperty &apos;Mode&apos; on DomainClass &apos;Infrared&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Infrared/Mode.DisplayName" xml:space="preserve">
+    <value>Mode</value>
+    <comment>DisplayName for DomainProperty &apos;Mode&apos; on DomainClass &apos;Infrared&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor</value>
+    <comment>Description for DomainClass &apos;LightSensor&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor.DisplayName" xml:space="preserve">
+    <value>Light Sensor</value>
+    <comment>DisplayName for DomainClass &apos;LightSensor&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor/Name.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;LightSensor&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;LightSensor&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor/Pin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor.Pin</value>
+    <comment>Description for DomainProperty &apos;Pin&apos; on DomainClass &apos;LightSensor&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor/Pin.DisplayName" xml:space="preserve">
+    <value>Pin</value>
+    <comment>DisplayName for DomainProperty &apos;Pin&apos; on DomainClass &apos;LightSensor&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor/Mode.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor.Mode</value>
+    <comment>Description for DomainProperty &apos;Mode&apos; on DomainClass &apos;LightSensor&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensor/Mode.DisplayName" xml:space="preserve">
+    <value>Mode</value>
+    <comment>DisplayName for DomainProperty &apos;Mode&apos; on DomainClass &apos;LightSensor&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Actuators.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Actuators</value>
+    <comment>Description for DomainClass &apos;Actuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Actuators.DisplayName" xml:space="preserve">
+    <value>Actuators</value>
+    <comment>DisplayName for DomainClass &apos;Actuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator</value>
+    <comment>Description for DomainClass &apos;LedActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator.DisplayName" xml:space="preserve">
+    <value>Led Actuator</value>
+    <comment>DisplayName for DomainClass &apos;LedActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator/Mode.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator.Mode</value>
+    <comment>Description for DomainProperty &apos;Mode&apos; on DomainClass &apos;LedActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator/Mode.DisplayName" xml:space="preserve">
+    <value>Mode</value>
+    <comment>DisplayName for DomainProperty &apos;Mode&apos; on DomainClass &apos;LedActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator/Name.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;LedActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;LedActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator/Pin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator.Pin</value>
+    <comment>Description for DomainProperty &apos;Pin&apos; on DomainClass &apos;LedActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuator/Pin.DisplayName" xml:space="preserve">
+    <value>Pin</value>
+    <comment>DisplayName for DomainProperty &apos;Pin&apos; on DomainClass &apos;LedActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator</value>
+    <comment>Description for DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator.DisplayName" xml:space="preserve">
+    <value>LCDActuator</value>
+    <comment>DisplayName for DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Row.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator.Row</value>
+    <comment>Description for DomainProperty &apos;Row&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Row.DisplayName" xml:space="preserve">
+    <value>Row</value>
+    <comment>DisplayName for DomainProperty &apos;Row&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Column.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator.Column</value>
+    <comment>Description for DomainProperty &apos;Column&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Column.DisplayName" xml:space="preserve">
+    <value>Column</value>
+    <comment>DisplayName for DomainProperty &apos;Column&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Name.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Text.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator.Text</value>
+    <comment>Description for DomainProperty &apos;Text&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Text.DisplayName" xml:space="preserve">
+    <value>Text</value>
+    <comment>DisplayName for DomainProperty &apos;Text&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Pin1.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator.Pin1</value>
+    <comment>Description for DomainProperty &apos;Pin1&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Pin1.DisplayName" xml:space="preserve">
+    <value>Pin1</value>
+    <comment>DisplayName for DomainProperty &apos;Pin1&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Pin2.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator.Pin2</value>
+    <comment>Description for DomainProperty &apos;Pin2&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Pin2.DisplayName" xml:space="preserve">
+    <value>Pin2</value>
+    <comment>DisplayName for DomainProperty &apos;Pin2&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Pin3.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator.Pin3</value>
+    <comment>Description for DomainProperty &apos;Pin3&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuator/Pin3.DisplayName" xml:space="preserve">
+    <value>Pin3</value>
+    <comment>DisplayName for DomainProperty &apos;Pin3&apos; on DomainClass &apos;LCDActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator</value>
+    <comment>Description for DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator.DisplayName" xml:space="preserve">
+    <value>Buzzer Actuator</value>
+    <comment>DisplayName for DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Frequency.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator.Frequency</value>
+    <comment>Description for DomainProperty &apos;Frequency&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Frequency.DisplayName" xml:space="preserve">
+    <value>Frequency</value>
+    <comment>DisplayName for DomainProperty &apos;Frequency&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Duration.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator.Duration</value>
+    <comment>Description for DomainProperty &apos;Duration&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Duration.DisplayName" xml:space="preserve">
+    <value>Duration</value>
+    <comment>DisplayName for DomainProperty &apos;Duration&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Name.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Pin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator.Pin</value>
+    <comment>Description for DomainProperty &apos;Pin&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Pin.DisplayName" xml:space="preserve">
+    <value>Pin</value>
+    <comment>DisplayName for DomainProperty &apos;Pin&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Mode.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator.Mode</value>
+    <comment>Description for DomainProperty &apos;Mode&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuator/Mode.DisplayName" xml:space="preserve">
+    <value>Mode</value>
+    <comment>DisplayName for DomainProperty &apos;Mode&apos; on DomainClass &apos;BuzzerActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator</value>
+    <comment>Description for DomainClass &apos;DCMotorActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator.DisplayName" xml:space="preserve">
+    <value>DCMotor Actuator</value>
+    <comment>DisplayName for DomainClass &apos;DCMotorActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator/Speed.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator.Speed</value>
+    <comment>Description for DomainProperty &apos;Speed&apos; on DomainClass &apos;DCMotorActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator/Speed.DisplayName" xml:space="preserve">
+    <value>Speed</value>
+    <comment>DisplayName for DomainProperty &apos;Speed&apos; on DomainClass &apos;DCMotorActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator/Name.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;DCMotorActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;DCMotorActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator/Pin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator.Pin</value>
+    <comment>Description for DomainProperty &apos;Pin&apos; on DomainClass &apos;DCMotorActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuator/Pin.DisplayName" xml:space="preserve">
+    <value>Pin</value>
+    <comment>DisplayName for DomainProperty &apos;Pin&apos; on DomainClass &apos;DCMotorActuator&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IO</value>
+    <comment>Description for DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO.DisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>DisplayName for DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/Type.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IO.Type</value>
+    <comment>Description for DomainProperty &apos;Type&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/Type.DisplayName" xml:space="preserve">
+    <value>Type</value>
+    <comment>DisplayName for DomainProperty &apos;Type&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/NameActOSen.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IO.Name Act OSen</value>
+    <comment>Description for DomainProperty &apos;NameActOSen&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/NameActOSen.DisplayName" xml:space="preserve">
+    <value>Name Act OSen</value>
+    <comment>DisplayName for DomainProperty &apos;NameActOSen&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/Order.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IO.Order</value>
+    <comment>Description for DomainProperty &apos;Order&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/Order.DisplayName" xml:space="preserve">
+    <value>Order</value>
+    <comment>DisplayName for DomainProperty &apos;Order&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/DeviceType.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IO.Device Type</value>
+    <comment>Description for DomainProperty &apos;DeviceType&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/DeviceType.DisplayName" xml:space="preserve">
+    <value>Device Type</value>
+    <comment>DisplayName for DomainProperty &apos;DeviceType&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/VarName.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IO.Var Name</value>
+    <comment>Description for DomainProperty &apos;VarName&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IO/VarName.DisplayName" xml:space="preserve">
+    <value>Var Name</value>
+    <comment>DisplayName for DomainProperty &apos;VarName&apos; on DomainClass &apos;IO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.If</value>
+    <comment>Description for DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If.DisplayName" xml:space="preserve">
+    <value>If</value>
+    <comment>DisplayName for DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/Operator1.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.If.Operator1</value>
+    <comment>Description for DomainProperty &apos;Operator1&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/Operator1.DisplayName" xml:space="preserve">
+    <value>Operator1</value>
+    <comment>DisplayName for DomainProperty &apos;Operator1&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/Condition.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.If.Condition</value>
+    <comment>Description for DomainProperty &apos;Condition&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/Condition.DisplayName" xml:space="preserve">
+    <value>Condition</value>
+    <comment>DisplayName for DomainProperty &apos;Condition&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/Operator2.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.If.Operator2</value>
+    <comment>Description for DomainProperty &apos;Operator2&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/Operator2.DisplayName" xml:space="preserve">
+    <value>Operator2</value>
+    <comment>DisplayName for DomainProperty &apos;Operator2&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/Order.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.If.Order</value>
+    <comment>Description for DomainProperty &apos;Order&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/Order.DisplayName" xml:space="preserve">
+    <value>Order</value>
+    <comment>DisplayName for DomainProperty &apos;Order&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/FinalOrder.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.If.Final Order</value>
+    <comment>Description for DomainProperty &apos;FinalOrder&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.If/FinalOrder.DisplayName" xml:space="preserve">
+    <value>Final Order</value>
+    <comment>DisplayName for DomainProperty &apos;FinalOrder&apos; on DomainClass &apos;If&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Delay.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Delay</value>
+    <comment>Description for DomainClass &apos;Delay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Delay.DisplayName" xml:space="preserve">
+    <value>Delay</value>
+    <comment>DisplayName for DomainClass &apos;Delay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Delay/time.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Delay.Time</value>
+    <comment>Description for DomainProperty &apos;time&apos; on DomainClass &apos;Delay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Delay/time.DisplayName" xml:space="preserve">
+    <value>Time</value>
+    <comment>DisplayName for DomainProperty &apos;time&apos; on DomainClass &apos;Delay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Delay/Order.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Delay.Order</value>
+    <comment>Description for DomainProperty &apos;Order&apos; on DomainClass &apos;Delay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Delay/Order.DisplayName" xml:space="preserve">
+    <value>Order</value>
+    <comment>DisplayName for DomainProperty &apos;Order&apos; on DomainClass &apos;Delay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino</value>
+    <comment>Description for DomainClass &apos;IoTModelHasArduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino.DisplayName" xml:space="preserve">
+    <value>Io TModel Has Arduino</value>
+    <comment>DisplayName for DomainClass &apos;IoTModelHasArduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino/IoTModel.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino.IoTModel</value>
+    <comment>Description for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasArduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino/IoTModel.DisplayName" xml:space="preserve">
+    <value>Io TModel</value>
+    <comment>DisplayName for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasArduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino/IoTModel.PropertyDisplayName" xml:space="preserve">
+    <value>Arduino</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasArduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino/Arduino.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino.Arduino</value>
+    <comment>Description for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;IoTModelHasArduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino/Arduino.DisplayName" xml:space="preserve">
+    <value>Arduino</value>
+    <comment>DisplayName for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;IoTModelHasArduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasArduino/Arduino.PropertyDisplayName" xml:space="preserve">
+    <value>Io TModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;IoTModelHasArduino&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors</value>
+    <comment>Description for DomainClass &apos;IoTModelHasSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors.DisplayName" xml:space="preserve">
+    <value>Io TModel Has Sensors</value>
+    <comment>DisplayName for DomainClass &apos;IoTModelHasSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors/IoTModel.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors.IoTModel</value>
+    <comment>Description for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors/IoTModel.DisplayName" xml:space="preserve">
+    <value>Io TModel</value>
+    <comment>DisplayName for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors/IoTModel.PropertyDisplayName" xml:space="preserve">
+    <value>Sensors</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors/Sensors.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors.Sensors</value>
+    <comment>Description for DomainRole &apos;Sensors&apos; on DomainRelationship &apos;IoTModelHasSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors/Sensors.DisplayName" xml:space="preserve">
+    <value>Sensors</value>
+    <comment>DisplayName for DomainRole &apos;Sensors&apos; on DomainRelationship &apos;IoTModelHasSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasSensors/Sensors.PropertyDisplayName" xml:space="preserve">
+    <value>Io TModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Sensors&apos; on DomainRelationship &apos;IoTModelHasSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller</value>
+    <comment>Description for DomainClass &apos;IoTModelHasContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller.DisplayName" xml:space="preserve">
+    <value>Io TModel Has Contoller</value>
+    <comment>DisplayName for DomainClass &apos;IoTModelHasContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller/IoTModel.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller.IoTModel</value>
+    <comment>Description for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller/IoTModel.DisplayName" xml:space="preserve">
+    <value>Io TModel</value>
+    <comment>DisplayName for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller/IoTModel.PropertyDisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller/Contoller.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller.Contoller</value>
+    <comment>Description for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;IoTModelHasContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller/Contoller.DisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>DisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;IoTModelHasContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasContoller/Contoller.PropertyDisplayName" xml:space="preserve">
+    <value>Io TModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;IoTModelHasContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors</value>
+    <comment>Description for DomainClass &apos;ArduinoReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors.DisplayName" xml:space="preserve">
+    <value>Arduino References Sensors</value>
+    <comment>DisplayName for DomainClass &apos;ArduinoReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors/Arduino.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors.Arduino</value>
+    <comment>Description for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;ArduinoReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors/Arduino.DisplayName" xml:space="preserve">
+    <value>Arduino</value>
+    <comment>DisplayName for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;ArduinoReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors/Arduino.PropertyDisplayName" xml:space="preserve">
+    <value>Sensors</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;ArduinoReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors/Sensors.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors.Sensors</value>
+    <comment>Description for DomainRole &apos;Sensors&apos; on DomainRelationship &apos;ArduinoReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors/Sensors.DisplayName" xml:space="preserve">
+    <value>Sensors</value>
+    <comment>DisplayName for DomainRole &apos;Sensors&apos; on DomainRelationship &apos;ArduinoReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesSensors/Sensors.PropertyDisplayName" xml:space="preserve">
+    <value>Arduino</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Sensors&apos; on DomainRelationship &apos;ArduinoReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators</value>
+    <comment>Description for DomainClass &apos;IoTModelHasActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators.DisplayName" xml:space="preserve">
+    <value>Io TModel Has Actuators</value>
+    <comment>DisplayName for DomainClass &apos;IoTModelHasActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators/IoTModel.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators.IoTModel</value>
+    <comment>Description for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators/IoTModel.DisplayName" xml:space="preserve">
+    <value>Io TModel</value>
+    <comment>DisplayName for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators/IoTModel.PropertyDisplayName" xml:space="preserve">
+    <value>Actuators</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IoTModel&apos; on DomainRelationship &apos;IoTModelHasActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators/Actuators.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators.Actuators</value>
+    <comment>Description for DomainRole &apos;Actuators&apos; on DomainRelationship &apos;IoTModelHasActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators/Actuators.DisplayName" xml:space="preserve">
+    <value>Actuators</value>
+    <comment>DisplayName for DomainRole &apos;Actuators&apos; on DomainRelationship &apos;IoTModelHasActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelHasActuators/Actuators.PropertyDisplayName" xml:space="preserve">
+    <value>Io TModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Actuators&apos; on DomainRelationship &apos;IoTModelHasActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators</value>
+    <comment>Description for DomainClass &apos;ArduinoReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators.DisplayName" xml:space="preserve">
+    <value>Arduino References Actuators</value>
+    <comment>DisplayName for DomainClass &apos;ArduinoReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators/Arduino.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators.Arduino</value>
+    <comment>Description for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;ArduinoReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators/Arduino.DisplayName" xml:space="preserve">
+    <value>Arduino</value>
+    <comment>DisplayName for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;ArduinoReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators/Arduino.PropertyDisplayName" xml:space="preserve">
+    <value>Actuators</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;ArduinoReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators/Actuators.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators.Actuators</value>
+    <comment>Description for DomainRole &apos;Actuators&apos; on DomainRelationship &apos;ArduinoReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators/Actuators.DisplayName" xml:space="preserve">
+    <value>Actuators</value>
+    <comment>DisplayName for DomainRole &apos;Actuators&apos; on DomainRelationship &apos;ArduinoReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesActuators/Actuators.PropertyDisplayName" xml:space="preserve">
+    <value>Arduino</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Actuators&apos; on DomainRelationship &apos;ArduinoReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller</value>
+    <comment>Description for DomainClass &apos;ArduinoReferencesContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller.DisplayName" xml:space="preserve">
+    <value>Arduino References Contoller</value>
+    <comment>DisplayName for DomainClass &apos;ArduinoReferencesContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller/Arduino.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller.Arduino</value>
+    <comment>Description for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;ArduinoReferencesContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller/Arduino.DisplayName" xml:space="preserve">
+    <value>Arduino</value>
+    <comment>DisplayName for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;ArduinoReferencesContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller/Arduino.PropertyDisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Arduino&apos; on DomainRelationship &apos;ArduinoReferencesContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller/Contoller.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller.Contoller</value>
+    <comment>Description for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ArduinoReferencesContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller/Contoller.DisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>DisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ArduinoReferencesContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoReferencesContoller/Contoller.PropertyDisplayName" xml:space="preserve">
+    <value>Arduino</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ArduinoReferencesContoller&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO</value>
+    <comment>Description for DomainClass &apos;ContollerHasIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO.DisplayName" xml:space="preserve">
+    <value>Contoller Has IO</value>
+    <comment>DisplayName for DomainClass &apos;ContollerHasIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO/Contoller.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO.Contoller</value>
+    <comment>Description for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ContollerHasIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO/Contoller.DisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>DisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ContollerHasIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO/Contoller.PropertyDisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ContollerHasIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO/IO.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO.IO</value>
+    <comment>Description for DomainRole &apos;IO&apos; on DomainRelationship &apos;ContollerHasIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO/IO.DisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>DisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;ContollerHasIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIO/IO.PropertyDisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;ContollerHasIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf</value>
+    <comment>Description for DomainClass &apos;ContollerHasIf&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf.DisplayName" xml:space="preserve">
+    <value>Contoller Has If</value>
+    <comment>DisplayName for DomainClass &apos;ContollerHasIf&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf/Contoller.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf.Contoller</value>
+    <comment>Description for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ContollerHasIf&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf/Contoller.DisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>DisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ContollerHasIf&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf/Contoller.PropertyDisplayName" xml:space="preserve">
+    <value>If</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ContollerHasIf&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf/If.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf.If</value>
+    <comment>Description for DomainRole &apos;If&apos; on DomainRelationship &apos;ContollerHasIf&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf/If.DisplayName" xml:space="preserve">
+    <value>If</value>
+    <comment>DisplayName for DomainRole &apos;If&apos; on DomainRelationship &apos;ContollerHasIf&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasIf/If.PropertyDisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>PropertyDisplayName for DomainRole &apos;If&apos; on DomainRelationship &apos;ContollerHasIf&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay</value>
+    <comment>Description for DomainClass &apos;ContollerHasDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay.DisplayName" xml:space="preserve">
+    <value>Contoller Has Delay</value>
+    <comment>DisplayName for DomainClass &apos;ContollerHasDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay/Contoller.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay.Contoller</value>
+    <comment>Description for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ContollerHasDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay/Contoller.DisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>DisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ContollerHasDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay/Contoller.PropertyDisplayName" xml:space="preserve">
+    <value>Delay</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Contoller&apos; on DomainRelationship &apos;ContollerHasDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay/Delay.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay.Delay</value>
+    <comment>Description for DomainRole &apos;Delay&apos; on DomainRelationship &apos;ContollerHasDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay/Delay.DisplayName" xml:space="preserve">
+    <value>Delay</value>
+    <comment>DisplayName for DomainRole &apos;Delay&apos; on DomainRelationship &apos;ContollerHasDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ContollerHasDelay/Delay.PropertyDisplayName" xml:space="preserve">
+    <value>Contoller</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Delay&apos; on DomainRelationship &apos;ContollerHasDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO</value>
+    <comment>Description for DomainClass &apos;IfReferencesIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO.DisplayName" xml:space="preserve">
+    <value>If References IO</value>
+    <comment>DisplayName for DomainClass &apos;IfReferencesIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO/If.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO.If</value>
+    <comment>Description for DomainRole &apos;If&apos; on DomainRelationship &apos;IfReferencesIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO/If.DisplayName" xml:space="preserve">
+    <value>If</value>
+    <comment>DisplayName for DomainRole &apos;If&apos; on DomainRelationship &apos;IfReferencesIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO/If.PropertyDisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>PropertyDisplayName for DomainRole &apos;If&apos; on DomainRelationship &apos;IfReferencesIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO/IO.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO.IO</value>
+    <comment>Description for DomainRole &apos;IO&apos; on DomainRelationship &apos;IfReferencesIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO/IO.DisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>DisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;IfReferencesIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesIO/IO.PropertyDisplayName" xml:space="preserve">
+    <value>If</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;IfReferencesIO&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay</value>
+    <comment>Description for DomainClass &apos;IfReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay.DisplayName" xml:space="preserve">
+    <value>If References Delay</value>
+    <comment>DisplayName for DomainClass &apos;IfReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay/If.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay.If</value>
+    <comment>Description for DomainRole &apos;If&apos; on DomainRelationship &apos;IfReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay/If.DisplayName" xml:space="preserve">
+    <value>If</value>
+    <comment>DisplayName for DomainRole &apos;If&apos; on DomainRelationship &apos;IfReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay/If.PropertyDisplayName" xml:space="preserve">
+    <value>Delay</value>
+    <comment>PropertyDisplayName for DomainRole &apos;If&apos; on DomainRelationship &apos;IfReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay/Delay.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay.Delay</value>
+    <comment>Description for DomainRole &apos;Delay&apos; on DomainRelationship &apos;IfReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay/Delay.DisplayName" xml:space="preserve">
+    <value>Delay</value>
+    <comment>DisplayName for DomainRole &apos;Delay&apos; on DomainRelationship &apos;IfReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfReferencesDelay/Delay.PropertyDisplayName" xml:space="preserve">
+    <value>If</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Delay&apos; on DomainRelationship &apos;IfReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators</value>
+    <comment>Description for DomainClass &apos;IOReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators.DisplayName" xml:space="preserve">
+    <value>IOReferences Actuators</value>
+    <comment>DisplayName for DomainClass &apos;IOReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators/IO.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators.IO</value>
+    <comment>Description for DomainRole &apos;IO&apos; on DomainRelationship &apos;IOReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators/IO.DisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>DisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;IOReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators/IO.PropertyDisplayName" xml:space="preserve">
+    <value>Actuators</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;IOReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators/Actuators.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators.Actuators</value>
+    <comment>Description for DomainRole &apos;Actuators&apos; on DomainRelationship &apos;IOReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators/Actuators.DisplayName" xml:space="preserve">
+    <value>Actuators</value>
+    <comment>DisplayName for DomainRole &apos;Actuators&apos; on DomainRelationship &apos;IOReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesActuators/Actuators.PropertyDisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Actuators&apos; on DomainRelationship &apos;IOReferencesActuators&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors</value>
+    <comment>Description for DomainClass &apos;IOReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors.DisplayName" xml:space="preserve">
+    <value>IOReferences Sensors</value>
+    <comment>DisplayName for DomainClass &apos;IOReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors/IO.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors.IO</value>
+    <comment>Description for DomainRole &apos;IO&apos; on DomainRelationship &apos;IOReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors/IO.DisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>DisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;IOReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors/IO.PropertyDisplayName" xml:space="preserve">
+    <value>Sensors</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;IOReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors/Sensors.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors.Sensors</value>
+    <comment>Description for DomainRole &apos;Sensors&apos; on DomainRelationship &apos;IOReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors/Sensors.DisplayName" xml:space="preserve">
+    <value>Sensors</value>
+    <comment>DisplayName for DomainRole &apos;Sensors&apos; on DomainRelationship &apos;IOReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesSensors/Sensors.PropertyDisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Sensors&apos; on DomainRelationship &apos;IOReferencesSensors&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay</value>
+    <comment>Description for DomainClass &apos;IOReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay.DisplayName" xml:space="preserve">
+    <value>IOReferences Delay</value>
+    <comment>DisplayName for DomainClass &apos;IOReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay/IO.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay.IO</value>
+    <comment>Description for DomainRole &apos;IO&apos; on DomainRelationship &apos;IOReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay/IO.DisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>DisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;IOReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay/IO.PropertyDisplayName" xml:space="preserve">
+    <value>Delay</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IO&apos; on DomainRelationship &apos;IOReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay/Delay.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay.Delay</value>
+    <comment>Description for DomainRole &apos;Delay&apos; on DomainRelationship &apos;IOReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay/Delay.DisplayName" xml:space="preserve">
+    <value>Delay</value>
+    <comment>DisplayName for DomainRole &apos;Delay&apos; on DomainRelationship &apos;IOReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOReferencesDelay/Delay.PropertyDisplayName" xml:space="preserve">
+    <value>IO</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Delay&apos; on DomainRelationship &apos;IOReferencesDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.EType/LOW.DisplayName" xml:space="preserve">
+    <value>LOW</value>
+    <comment>Display name for EnumerationLiteral &apos;LOW&apos; on DomainEnumeration &apos;EType&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.EType/LOW.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.EType.LOW</value>
+    <comment>Description for EnumerationLiteral &apos;LOW&apos; on DomainEnumeration &apos;EType&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.EType/HIGH.DisplayName" xml:space="preserve">
+    <value>HIGH</value>
+    <comment>Display name for EnumerationLiteral &apos;HIGH&apos; on DomainEnumeration &apos;EType&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.EType/HIGH.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.EType.HIGH</value>
+    <comment>Description for EnumerationLiteral &apos;HIGH&apos; on DomainEnumeration &apos;EType&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoImg</value>
+    <comment>Description for DomainClass &apos;ArduinoImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArduinoImg.DisplayName" xml:space="preserve">
+    <value>Arduino Img</value>
+    <comment>DisplayName for DomainClass &apos;ArduinoImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.SensorShape.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.SensorShape</value>
+    <comment>Description for DomainClass &apos;SensorShape&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.SensorShape.DisplayName" xml:space="preserve">
+    <value>Sensor Shape</value>
+    <comment>DisplayName for DomainClass &apos;SensorShape&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.TemperatureImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.TemperatureImg</value>
+    <comment>Description for DomainClass &apos;TemperatureImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.TemperatureImg.DisplayName" xml:space="preserve">
+    <value>Temperature Img</value>
+    <comment>DisplayName for DomainClass &apos;TemperatureImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.InfraredImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.InfraredImg</value>
+    <comment>Description for DomainClass &apos;InfraredImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.InfraredImg.DisplayName" xml:space="preserve">
+    <value>Infrared Img</value>
+    <comment>DisplayName for DomainClass &apos;InfraredImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ControllerGeom.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ControllerGeom</value>
+    <comment>Description for DomainClass &apos;ControllerGeom&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ControllerGeom.DisplayName" xml:space="preserve">
+    <value>Controller Geom</value>
+    <comment>DisplayName for DomainClass &apos;ControllerGeom&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensorImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LightSensorImg</value>
+    <comment>Description for DomainClass &apos;LightSensorImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LightSensorImg.DisplayName" xml:space="preserve">
+    <value>Light Sensor Img</value>
+    <comment>DisplayName for DomainClass &apos;LightSensorImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuarionImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LedActuarionImg</value>
+    <comment>Description for DomainClass &apos;LedActuarionImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LedActuarionImg.DisplayName" xml:space="preserve">
+    <value>Led Actuarion Img</value>
+    <comment>DisplayName for DomainClass &apos;LedActuarionImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuatorImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuatorImg</value>
+    <comment>Description for DomainClass &apos;LCDActuatorImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.LCDActuatorImg.DisplayName" xml:space="preserve">
+    <value>LCDActuator Img</value>
+    <comment>DisplayName for DomainClass &apos;LCDActuatorImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuatorImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuatorImg</value>
+    <comment>Description for DomainClass &apos;BuzzerActuatorImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.BuzzerActuatorImg.DisplayName" xml:space="preserve">
+    <value>Buzzer Actuator Img</value>
+    <comment>DisplayName for DomainClass &apos;BuzzerActuatorImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuatorImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuatorImg</value>
+    <comment>Description for DomainClass &apos;DCMotorActuatorImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DCMotorActuatorImg.DisplayName" xml:space="preserve">
+    <value>DCMotor Actuator Img</value>
+    <comment>DisplayName for DomainClass &apos;DCMotorActuatorImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IfImg</value>
+    <comment>Description for DomainClass &apos;IfImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IfImg.DisplayName" xml:space="preserve">
+    <value>If Img</value>
+    <comment>DisplayName for DomainClass &apos;IfImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IOImg</value>
+    <comment>Description for DomainClass &apos;IOImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IOImg.DisplayName" xml:space="preserve">
+    <value>IOImg</value>
+    <comment>DisplayName for DomainClass &apos;IOImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DelayImg.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.DelayImg</value>
+    <comment>Description for DomainClass &apos;DelayImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.DelayImg.DisplayName" xml:space="preserve">
+    <value>Delay Img</value>
+    <comment>DisplayName for DomainClass &apos;DelayImg&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArdSens.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ArdSens</value>
+    <comment>Description for DomainClass &apos;ArdSens&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ArdSens.DisplayName" xml:space="preserve">
+    <value>Ard Sens</value>
+    <comment>DisplayName for DomainClass &apos;ArdSens&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Connec_Ard_Actu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.Connec_Ard_Actu</value>
+    <comment>Description for DomainClass &apos;Connec_Ard_Actu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.Connec_Ard_Actu.DisplayName" xml:space="preserve">
+    <value>Connec_ Ard_ Actu</value>
+    <comment>DisplayName for DomainClass &apos;Connec_Ard_Actu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecArduContro.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ConnecArduContro</value>
+    <comment>Description for DomainClass &apos;ConnecArduContro&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecArduContro.DisplayName" xml:space="preserve">
+    <value>Connec Ardu Contro</value>
+    <comment>DisplayName for DomainClass &apos;ConnecArduContro&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIfIo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIfIo</value>
+    <comment>Description for DomainClass &apos;ConnecIfIo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIfIo.DisplayName" xml:space="preserve">
+    <value>Connec If Io</value>
+    <comment>DisplayName for DomainClass &apos;ConnecIfIo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIfDelay.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIfDelay</value>
+    <comment>Description for DomainClass &apos;ConnecIfDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIfDelay.DisplayName" xml:space="preserve">
+    <value>Connec If Delay</value>
+    <comment>DisplayName for DomainClass &apos;ConnecIfDelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIoActua.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIoActua</value>
+    <comment>Description for DomainClass &apos;ConnecIoActua&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIoActua.DisplayName" xml:space="preserve">
+    <value>Connec Io Actua</value>
+    <comment>DisplayName for DomainClass &apos;ConnecIoActua&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIoSens.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIoSens</value>
+    <comment>Description for DomainClass &apos;ConnecIoSens&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIoSens.DisplayName" xml:space="preserve">
+    <value>Connec Io Sens</value>
+    <comment>DisplayName for DomainClass &apos;ConnecIoSens&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIODelay.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIODelay</value>
+    <comment>Description for DomainClass &apos;ConnecIODelay&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.ConnecIODelay.DisplayName" xml:space="preserve">
+    <value>Connec IODelay</value>
+    <comment>DisplayName for DomainClass &apos;ConnecIODelay&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>JPBSDSJDFProyectoIPS (*.ISJProyIPS)|*.ISJProyIPS</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>JPBSDSJDFProyectoIPS Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelDiagram.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelDiagram</value>
+    <comment>Description for DomainClass &apos;IoTModelDiagram&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JPBSDSJDFProyectoIPS.IoTModelDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;IoTModelDiagram&apos;</comment>
+  </data>
+  <data name="JPBSDSJDFProyectoIPSToolboxTab" xml:space="preserve">
+    <value>JPBSDSJDFProyectoIPS</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="IconSensorsToolboxItem" xml:space="preserve">
+    <value>Sensors</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconSensorsToolboxTooltip" xml:space="preserve">
+    <value>Icon Sensors</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconControllerToolboxItem" xml:space="preserve">
+    <value>Controller</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconControllerToolboxTooltip" xml:space="preserve">
+    <value>Icon Controller</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="Connec_Ard_SensorToolboxItem" xml:space="preserve">
+    <value>Connector_Ard_Sensor</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="Connec_Ard_SensorToolboxTooltip" xml:space="preserve">
+    <value>Connec_ Ard_ Sensor</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconArduinoToolboxItem" xml:space="preserve">
+    <value>Arduino Board</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconArduinoToolboxTooltip" xml:space="preserve">
+    <value>Icon Arduino</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconLedToolboxItem" xml:space="preserve">
+    <value>Led</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconLedToolboxTooltip" xml:space="preserve">
+    <value>Icon Led</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconConnec_Ard_ActToolboxItem" xml:space="preserve">
+    <value>Connector_Arduino_Actuator</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconConnec_Ard_ActToolboxTooltip" xml:space="preserve">
+    <value>Icon Connec_ Ard_ Act</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconLcdToolboxItem" xml:space="preserve">
+    <value>LCD</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconLcdToolboxTooltip" xml:space="preserve">
+    <value>Icon Lcd</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconBuzzerToolboxItem" xml:space="preserve">
+    <value>Buzzer</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconBuzzerToolboxTooltip" xml:space="preserve">
+    <value>Icon Buzzer</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconDCmotorToolboxItem" xml:space="preserve">
+    <value>DCmotor</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconDCmotorToolboxTooltip" xml:space="preserve">
+    <value>Icon DCmotor</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconIO1ToolboxItem" xml:space="preserve">
+    <value>IO</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconIO1ToolboxTooltip" xml:space="preserve">
+    <value>Icon IO1</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconDelay1ToolboxItem" xml:space="preserve">
+    <value>Delay</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconDelay1ToolboxTooltip" xml:space="preserve">
+    <value>Icon Delay1</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconConnecArdControToolboxItem" xml:space="preserve">
+    <value>Connector_Arduino_Controller</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconConnecArdControToolboxTooltip" xml:space="preserve">
+    <value>Icon Connec Ard Contro</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconConnecIfIoToolboxItem" xml:space="preserve">
+    <value>Connector_If_IO</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconConnecIfIoToolboxTooltip" xml:space="preserve">
+    <value>Icon Connec If Io</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconConnecIfDelayToolboxItem" xml:space="preserve">
+    <value>Connector_If_Delay</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconConnecIfDelayToolboxTooltip" xml:space="preserve">
+    <value>Icon Connec If Delay</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconConnecIoActuaToolboxItem" xml:space="preserve">
+    <value>Connector_Io_Actuator</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconConnecIoActuaToolboxTooltip" xml:space="preserve">
+    <value>Icon Connec Io Actua</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconConnecIoSensToolboxItem" xml:space="preserve">
+    <value>Connector_Io_Sensor</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconConnecIoSensToolboxTooltip" xml:space="preserve">
+    <value>Icon Connec Io Sens</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconConnecIoDelayToolboxItem" xml:space="preserve">
+    <value>Connector_Io_Delay</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconConnecIoDelayToolboxTooltip" xml:space="preserve">
+    <value>Icon Connec Io Delay</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconIf2ToolboxItem" xml:space="preserve">
+    <value>If</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconIf2ToolboxTooltip" xml:space="preserve">
+    <value>Icon If2</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconInfrared2ToolboxItem" xml:space="preserve">
+    <value>Infrared</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconInfrared2ToolboxTooltip" xml:space="preserve">
+    <value>Icon Infrared2</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="InconTemperature2ToolboxItem" xml:space="preserve">
+    <value>Temperature</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="InconTemperature2ToolboxTooltip" xml:space="preserve">
+    <value>Incon Temperature2</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="IconLightSensor2ToolboxItem" xml:space="preserve">
+    <value>LightSensor</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IconLightSensor2ToolboxTooltip" xml:space="preserve">
+    <value>Icon Light Sensor2</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ArduinoImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\lca1001.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>ArduinoImg shape image</comment>
+  </data>
+  <data name="TemperatureImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\principal_6j.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>TemperatureImg shape image</comment>
+  </data>
+  <data name="InfraredImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\modulo-arduino-sensor-ir-infrarrojo-reflexivo-1-16152.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>InfraredImg shape image</comment>
+  </data>
+  <data name="LightSensorImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\lightsensor.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>LightSensorImg shape image</comment>
+  </data>
+  <data name="LedActuarionImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\led-img.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>LedActuarionImg shape image</comment>
+  </data>
+  <data name="LCDActuatorImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\LCD-img.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>LCDActuatorImg shape image</comment>
+  </data>
+  <data name="BuzzerActuatorImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\buzzer-zumbador-img.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>BuzzerActuatorImg shape image</comment>
+  </data>
+  <data name="DCMotorActuatorImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\DCmotor-img.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>DCMotorActuatorImg shape image</comment>
+  </data>
+  <data name="IfImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\if.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>IfImg shape image</comment>
+  </data>
+  <data name="IOImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\i-o.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>IOImg shape image</comment>
+  </data>
+  <data name="DelayImgImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\delay.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>DelayImg shape image</comment>
+  </data>
+  <data name="IconSensorsToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\sensor-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconControllerToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Controller-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="Connec_Ard_SensorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconArduinoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Arduino-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconLedToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\led-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconConnec_Ard_ActToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconLcdToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\lcd-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconBuzzerToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Buzzer-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconDCmotorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\dcmotor-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconIO1ToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\i-o-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconDelay1ToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\delay-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconConnecArdControToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconConnecIfIoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconConnecIfDelayToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconConnecIoActuaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconConnecIoSensToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconConnecIoDelayToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconIf2ToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\if-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconInfrared2ToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\infrared-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="InconTemperature2ToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\temperature-sensor-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="IconLightSensor2ToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\light sensor-icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

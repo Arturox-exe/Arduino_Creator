@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ioTModelDiagram dslVersion="1.0.0.0" Id="64b40ded-6e9a-45e6-b5d8-8868f8e28c78" absoluteBounds="0, 0, 18, 8.5" name="Sample">
+  <ioTModelMoniker Id="62813b17-8a3e-4c0a-a441-25fd57df3206" />
+  <nestedChildShapes>
+    <arduinoImg Id="ae7b3021-8b44-4e2a-8baa-d38de1dcc79a" absoluteBounds="9.25, 0.625, 3.75, 2.8229167461395264">
+      <arduinoMoniker Id="2eacabab-1a8a-4aa0-835f-0035e94324ae" />
+    </arduinoImg>
+    <controllerGeom Id="95a18adf-86eb-4999-8940-bd48a2dfe41d" absoluteBounds="15.375, 1, 2.375, 3.75">
+      <contollerMoniker Id="78befd61-a73f-4ef2-93f0-88c959f329aa" />
+    </controllerGeom>
+    <iOImg Id="ba0b605c-1a03-490d-a6f5-6c3ebc0dc3fb" absoluteBounds="15.625, 1.25, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="f436733b-4540-4459-8a53-4e0196f0051c" />
+    </iOImg>
+    <iOImg Id="575315ea-dd48-418e-8775-4dd95b217e66" absoluteBounds="15.625, 2.75, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="c8d98cf7-9e28-47c3-9b01-41d826e6981f" />
+    </iOImg>
+    <delayImg Id="b0bf1287-4a8a-4077-8e05-f84a797cac09" absoluteBounds="15.625, 2, 0.52076822519302368, 0.52076822519302368">
+      <delayMoniker Id="2e929618-aa9c-47fc-8a70-287d8f57a326" />
+    </delayImg>
+    <delayImg Id="0015d233-c0b8-48b7-b46d-d4175ed9d7b7" absoluteBounds="15.625, 3.5, 0.52076822519302368, 0.52076822519302368">
+      <delayMoniker Id="96fa1c77-7e5b-41cb-8ac8-04dfff3936cb" />
+    </delayImg>
+    <ledActuarionImg Id="01d13b74-5a60-4b99-a710-76c42ea8688a" absoluteBounds="11, 4.25, 0.33000001311302185, 0.42666667699813843">
+      <ledActuatorMoniker Id="d0c8963c-def5-4b12-8e64-8af0066c8a47" />
+    </ledActuarionImg>
+    <connecArduContro Id="31fe9411-4a28-449e-9bda-b033df3c64b2" edgePoints="[(13 : 2.22395837306976); (15.375 : 2.22395837306976)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <arduinoReferencesContollerMoniker Id="a3d2057d-d148-4965-95c0-0cd6b2107638" />
+      <nodes>
+        <arduinoImgMoniker Id="ae7b3021-8b44-4e2a-8baa-d38de1dcc79a" />
+        <controllerGeomMoniker Id="95a18adf-86eb-4999-8940-bd48a2dfe41d" />
+      </nodes>
+    </connecArduContro>
+    <connec_Ard_Actu Id="95bd1333-f77b-4e49-95ea-d827b0fd78d3" edgePoints="[(11.1650000065565 : 3.44791674613953); (11.1650000065565 : 4.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <arduinoReferencesActuatorsMoniker Id="eaf23976-5473-4d00-9308-8580c24408c3" />
+      <nodes>
+        <arduinoImgMoniker Id="ae7b3021-8b44-4e2a-8baa-d38de1dcc79a" />
+        <ledActuarionImgMoniker Id="01d13b74-5a60-4b99-a710-76c42ea8688a" />
+      </nodes>
+    </connec_Ard_Actu>
+  </nestedChildShapes>
+</ioTModelDiagram>

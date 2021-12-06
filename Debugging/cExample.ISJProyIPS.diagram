@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ioTModelDiagram dslVersion="1.0.0.0" Id="5488795d-0450-4c53-9a56-4313252577fd" absoluteBounds="0, 0, 16.5, 8.5" name="Test">
+  <ioTModelMoniker Id="2626ff91-2501-4bb5-80a3-512df40c72a9" />
+  <nestedChildShapes>
+    <arduinoImg Id="c94cb896-fb4a-4916-a66a-5467c998a7af" absoluteBounds="7.875, 0.625, 3.75, 2.8229167461395264">
+      <arduinoMoniker Id="72858e11-6478-4b61-a8ef-ddc077304851" />
+    </arduinoImg>
+    <controllerGeom Id="66287833-7ee4-4816-b6c9-6e1b89613de7" absoluteBounds="12.25, 0.75, 3.25, 4.75">
+      <contollerMoniker Id="35f45cd5-7ccb-41f0-9a92-ad837cc4e363" />
+    </controllerGeom>
+    <connecArduContro Id="50dd610c-aa1d-4b7f-92f6-3745d4e3efa0" edgePoints="[(11.625 : 2.09895837306976); (12.25 : 2.09895837306976)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <arduinoReferencesContollerMoniker Id="a16d6a01-7a09-423f-bd02-9f277a1d3d9f" />
+      <nodes>
+        <arduinoImgMoniker Id="c94cb896-fb4a-4916-a66a-5467c998a7af" />
+        <controllerGeomMoniker Id="66287833-7ee4-4816-b6c9-6e1b89613de7" />
+      </nodes>
+    </connecArduContro>
+    <lCDActuatorImg Id="c0ffa422-462b-44fd-ba29-782aecf37e4d" absoluteBounds="6.25, 4.5, 1.4166666269302368, 0.69444441795349121">
+      <lCDActuatorMoniker Id="14afa8d8-e530-42a3-b7db-51bae27c37e6" />
+    </lCDActuatorImg>
+    <connec_Ard_Actu Id="4673f6ef-8286-4b87-bf96-483474dec6ed" edgePoints="[(8.90625 : 3.44791674613953); (8.90625 : 4.84722220897675); (7.66666662693024 : 4.84722220897675)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <arduinoReferencesActuatorsMoniker Id="8cf0f832-a932-4f54-933c-8064bb0f72b9" />
+      <nodes>
+        <arduinoImgMoniker Id="c94cb896-fb4a-4916-a66a-5467c998a7af" />
+        <lCDActuatorImgMoniker Id="c0ffa422-462b-44fd-ba29-782aecf37e4d" />
+      </nodes>
+    </connec_Ard_Actu>
+    <lightSensorImg Id="34183970-529c-408e-b5c9-0b4239a86d97" absoluteBounds="5, 1, 1.40625, 1.40625">
+      <lightSensorMoniker Id="b414a8e7-de1a-4be6-a067-299285df5405" />
+    </lightSensorImg>
+    <ardSens Id="779741ac-e144-4ed5-9cda-e1c2cb7fbe61" edgePoints="[(7.875 : 1.703125); (6.40625 : 1.703125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <arduinoReferencesSensorsMoniker Id="f01fe70e-3407-43c0-aa7b-315f244ea1d3" />
+      <nodes>
+        <arduinoImgMoniker Id="c94cb896-fb4a-4916-a66a-5467c998a7af" />
+        <lightSensorImgMoniker Id="34183970-529c-408e-b5c9-0b4239a86d97" />
+      </nodes>
+    </ardSens>
+    <iOImg Id="164cef26-3ba1-47da-a1c4-692b650d0ecb" absoluteBounds="12.625, 1, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="adb2e0d0-2c2b-4e19-96b8-131aeb95d9fb" />
+    </iOImg>
+    <ifImg Id="9f0be482-0fca-422c-b70b-1eb37e45f546" absoluteBounds="12.625, 1.875, 0.52076822519302368, 0.52076822519302368">
+      <ifMoniker Id="cb1ed86e-937c-4b53-bd21-94546aadb93b" />
+    </ifImg>
+    <iOImg Id="3c95649c-5ebe-4df5-9a58-a90fa0ae9b6a" absoluteBounds="14.875, 1.875, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="86167971-d0a6-4797-b43e-93fd6cc32644" />
+    </iOImg>
+    <connecIfIo Id="444e4bce-0c19-4e9a-af60-0439158ed3bd" edgePoints="[(13.145768225193 : 2.13017642498016); (14.875 : 2.13017642498016)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <ifReferencesIOMoniker Id="bbad214e-3e79-43c5-a9e2-a94fa211c8d2" />
+      <nodes>
+        <ifImgMoniker Id="9f0be482-0fca-422c-b70b-1eb37e45f546" />
+        <iOImgMoniker Id="3c95649c-5ebe-4df5-9a58-a90fa0ae9b6a" />
+      </nodes>
+    </connecIfIo>
+    <connecIoActua Id="d17240b2-85dd-4e69-9fbe-4b9db16d1915" edgePoints="[(15.395768225193 : 2.13017642498016); (15.75 : 2.13017642498016); (15.75 : 5.75); (11.875 : 5.75); (11.875 : 3.69791674613953); (8.98958333333333 : 3.69791674613953 : JumpStart); (8.82291666666667 : 3.69791674613953 : JumpEnd); (6.95833331346512 : 3.69791674613953); (6.95833331346512 : 4.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <iOReferencesActuatorsMoniker Id="d2df6e04-6356-4899-9fad-ef9de8a5c8b4" />
+      <nodes>
+        <iOImgMoniker Id="3c95649c-5ebe-4df5-9a58-a90fa0ae9b6a" />
+        <lCDActuatorImgMoniker Id="c0ffa422-462b-44fd-ba29-782aecf37e4d" />
+      </nodes>
+    </connecIoActua>
+    <delayImg Id="2c786f36-7a42-442f-885d-e15f43ac911e" absoluteBounds="12.625, 4.875, 0.52076822519302368, 0.52076822519302368">
+      <delayMoniker Id="8a85c7fa-69e3-409f-b3b3-faf8ddb5121c" />
+    </delayImg>
+    <iOImg Id="0f36d822-2a19-4b90-a399-724f8497ed4a" absoluteBounds="14.875, 2.5, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="1a0ce91f-3dd2-4f54-9974-fffd7ce0143d" />
+    </iOImg>
+    <iOImg Id="860f789b-f00d-4514-9054-d372889a25b8" absoluteBounds="14.875, 3.125, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="ac8927f2-1078-4104-a431-5645ae9cc733" />
+    </iOImg>
+    <iOImg Id="1f3a7087-0616-4972-815c-d42b4e90f38b" absoluteBounds="14.875, 3.75, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="bbfffc4d-ecf3-4f19-98f5-10c31a1b6b59" />
+    </iOImg>
+    <ifImg Id="115a3fc5-59e6-438b-aab9-9231e1b3a94e" absoluteBounds="12.625, 2.5, 0.52076822519302368, 0.52076822519302368">
+      <ifMoniker Id="257e2550-c04f-4315-9a57-b413504694af" />
+    </ifImg>
+    <ifImg Id="c998ca55-9295-492d-904d-782ee469e593" absoluteBounds="12.625, 3.125, 0.52076822519302368, 0.52076822519302368">
+      <ifMoniker Id="9634e4c3-c190-4da0-8f0b-ab7cedaffe8e" />
+    </ifImg>
+    <ifImg Id="3d8d3862-80d2-4113-8f58-6aff44fc4870" absoluteBounds="12.625, 3.75, 0.52076822519302368, 0.52076822519302368">
+      <ifMoniker Id="9256046a-2761-4dd1-b8f6-07bfc9e6f54e" />
+    </ifImg>
+    <iOImg Id="deab1df9-50ef-4b8d-b5d2-7b4a66058f51" absoluteBounds="12.625, 4.375, 0.52076822519302368, 0.51035284996032715">
+      <iOMoniker Id="be7d233e-6743-441b-acaf-6b0ecfbeaf51" />
+    </iOImg>
+    <connecIfIo Id="cd01bed8-a6c9-4788-b526-4ee0c4520c9a" edgePoints="[(13.145768225193 : 2.75517642498016); (14.875 : 2.75517642498016)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <ifReferencesIOMoniker Id="9c6cebb8-69aa-4b04-80cb-1889ebc5bf2a" />
+      <nodes>
+        <ifImgMoniker Id="115a3fc5-59e6-438b-aab9-9231e1b3a94e" />
+        <iOImgMoniker Id="0f36d822-2a19-4b90-a399-724f8497ed4a" />
+      </nodes>
+    </connecIfIo>
+    <connecIfIo Id="fcff224b-e8e9-4c30-8e4a-32f988d4e6fb" edgePoints="[(13.145768225193 : 3.38017642498016); (14.875 : 3.38017642498016)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <ifReferencesIOMoniker Id="3a35a232-6a5e-4bd6-aafc-e1e6b68ab6c4" />
+      <nodes>
+        <ifImgMoniker Id="c998ca55-9295-492d-904d-782ee469e593" />
+        <iOImgMoniker Id="860f789b-f00d-4514-9054-d372889a25b8" />
+      </nodes>
+    </connecIfIo>
+    <connecIfIo Id="ace1b336-ea60-4bd7-885d-b388412b4d36" edgePoints="[(13.145768225193 : 4.00517642498016); (14.875 : 4.00517642498016)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <ifReferencesIOMoniker Id="7d532ea9-6c9c-40bf-af12-8ffe594d6cfb" />
+      <nodes>
+        <ifImgMoniker Id="3d8d3862-80d2-4113-8f58-6aff44fc4870" />
+        <iOImgMoniker Id="1f3a7087-0616-4972-815c-d42b4e90f38b" />
+      </nodes>
+    </connecIfIo>
+    <connecIoActua Id="ad2da692-b638-498a-9cd9-192dd86499eb" edgePoints="[(15.395768225193 : 2.75517642498016); (15.6666666666667 : 2.75517642498016 : JumpStart); (15.8333333333333 : 2.75517642498016 : JumpEnd); (16 : 2.75517642498016); (16 : 6); (11.625 : 6); (11.625 : 3.94791674613953); (8.98958333333333 : 3.94791674613953 : JumpStart); (8.82291666666667 : 3.94791674613953 : JumpEnd); (6.95833331346512 : 3.94791674613953); (6.95833331346512 : 4.5)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <iOReferencesActuatorsMoniker Id="7196136c-c878-4b25-88a3-06020407ca75" />
+      <nodes>
+        <iOImgMoniker Id="0f36d822-2a19-4b90-a399-724f8497ed4a" />
+        <lCDActuatorImgMoniker Id="c0ffa422-462b-44fd-ba29-782aecf37e4d" />
+      </nodes>
+    </connecIoActua>
+    <connecIoActua Id="d712ddec-4af9-438c-b512-d14118b904a1" edgePoints="[(15.395768225193 : 3.38017642498016); (15.6666666666667 : 3.38017642498016 : JumpStart); (15.8333333333333 : 3.38017642498016 : JumpEnd); (15.875 : 3.38017642498016); (15.875 : 5.64576822519302); (15.8333333333333 : 5.64576822519302 : JumpStart); (15.6666666666667 : 5.64576822519302 : JumpEnd); (11.9583333333333 : 5.64576822519302 : JumpStart); (11.7916666666667 : 5.64576822519302 : JumpEnd); (11.7083333333333 : 5.64576822519302 : JumpStart); (11.5416666666667 : 5.64576822519302 : JumpEnd); (5.875 : 5.64576822519302); (5.875 : 4.84722220897675); (6.25 : 4.84722220897675)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <iOReferencesActuatorsMoniker Id="76fd5ab2-3fa6-4d7d-ab94-ea37b96490a6" />
+      <nodes>
+        <iOImgMoniker Id="860f789b-f00d-4514-9054-d372889a25b8" />
+        <lCDActuatorImgMoniker Id="c0ffa422-462b-44fd-ba29-782aecf37e4d" />
+      </nodes>
+    </connecIoActua>
+    <connecIoActua Id="93f9a2dc-2a89-42dd-841c-ea5ef41cecb3" edgePoints="[(15.395768225193 : 4.00517642498016); (15.625 : 4.00517642498016); (15.625 : 5.58326822519302); (11.9583333333333 : 5.58326822519302 : JumpStart); (11.7916666666667 : 5.58326822519302 : JumpEnd); (11.7083333333333 : 5.58326822519302 : JumpStart); (11.5416666666667 : 5.58326822519302 : JumpEnd); (5.625 : 5.58326822519302); (5.625 : 4.64235910448837); (6.25 : 4.64235910448837)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <iOReferencesActuatorsMoniker Id="b3ee37f6-b66c-4430-bc1f-c6006a67693f" />
+      <nodes>
+        <iOImgMoniker Id="1f3a7087-0616-4972-815c-d42b4e90f38b" />
+        <lCDActuatorImgMoniker Id="c0ffa422-462b-44fd-ba29-782aecf37e4d" />
+      </nodes>
+    </connecIoActua>
+    <connecIoActua Id="231e7168-9dbb-4321-bdcf-f704134ee578" edgePoints="[(12.625 : 4.61111110448837); (11.9583333333333 : 4.61111110448837 : JumpStart); (11.7916666666667 : 4.61111110448837 : JumpEnd); (11.7083333333333 : 4.61111110448837 : JumpStart); (11.5416666666667 : 4.61111110448837 : JumpEnd); (8.98958333333333 : 4.61111110448837 : JumpStart); (8.82291666666667 : 4.61111110448837 : JumpEnd); (7.66666662693024 : 4.61111110448837)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <iOReferencesActuatorsMoniker Id="3a4c86a3-1063-465e-861e-ebb2d3195d5b" />
+      <nodes>
+        <iOImgMoniker Id="deab1df9-50ef-4b8d-b5d2-7b4a66058f51" />
+        <lCDActuatorImgMoniker Id="c0ffa422-462b-44fd-ba29-782aecf37e4d" />
+      </nodes>
+    </connecIoActua>
+  </nestedChildShapes>
+</ioTModelDiagram>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ioTModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="62813b17-8a3e-4c0a-a441-25fd57df3206" xmlns="http://schemas.microsoft.com/dsltools/JPBSDSJDFProyectoIPS">
+  <arduino>
+    <ioTModelHasArduino Id="d15fb680-9697-49ca-b83b-747336f8671a">
+      <arduino Id="2eacabab-1a8a-4aa0-835f-0035e94324ae">
+        <actuators>
+          <arduinoReferencesActuators Id="eaf23976-5473-4d00-9308-8580c24408c3">
+            <ledActuatorMoniker Id="d0c8963c-def5-4b12-8e64-8af0066c8a47" />
+          </arduinoReferencesActuators>
+        </actuators>
+        <contoller>
+          <arduinoReferencesContoller Id="a3d2057d-d148-4965-95c0-0cd6b2107638">
+            <contollerMoniker Id="78befd61-a73f-4ef2-93f0-88c959f329aa" />
+          </arduinoReferencesContoller>
+        </contoller>
+      </arduino>
+    </ioTModelHasArduino>
+  </arduino>
+  <contoller>
+    <ioTModelHasContoller Id="fda374c5-fe4b-43e5-af73-d271083566b7">
+      <contoller Id="78befd61-a73f-4ef2-93f0-88c959f329aa">
+        <iO>
+          <contollerHasIO Id="3570b294-03c5-48b9-9ff9-13b3b17f0aa5">
+            <iO Id="f436733b-4540-4459-8a53-4e0196f0051c" type="HIGH" nameActOSen="led" order="0" deviceType="Led" />
+          </contollerHasIO>
+          <contollerHasIO Id="f05a4d39-a9d6-47d2-b78f-56d6686b09a0">
+            <iO Id="c8d98cf7-9e28-47c3-9b01-41d826e6981f" type="LOW" nameActOSen="led" order="2" deviceType="Led" />
+          </contollerHasIO>
+        </iO>
+        <delay>
+          <contollerHasDelay Id="847b1f10-35b4-4160-8c09-0fdd72cf13f9">
+            <delay Id="2e929618-aa9c-47fc-8a70-287d8f57a326" time="1000" order="1" />
+          </contollerHasDelay>
+          <contollerHasDelay Id="63803af5-2f6e-4e30-b0c6-6d99410d6c9b">
+            <delay Id="96fa1c77-7e5b-41cb-8ac8-04dfff3936cb" time="1000" order="3" />
+          </contollerHasDelay>
+        </delay>
+      </contoller>
+    </ioTModelHasContoller>
+  </contoller>
+  <actuators>
+    <ioTModelHasActuators Id="1a1a8d51-7994-450e-91ae-52ea92988937">
+      <ledActuator Id="d0c8963c-def5-4b12-8e64-8af0066c8a47" mode="Output" name="led" pin="13" />
+    </ioTModelHasActuators>
+  </actuators>
+</ioTModel>

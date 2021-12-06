@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ioTModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2626ff91-2501-4bb5-80a3-512df40c72a9" xmlns="http://schemas.microsoft.com/dsltools/JPBSDSJDFProyectoIPS">
+  <arduino>
+    <ioTModelHasArduino Id="3f8fef1d-5b54-4d95-8f53-2fe75ce4455d">
+      <arduino Id="8d6a8d38-8c2d-45c7-be7f-871afcccc596">
+        <sensors>
+          <arduinoReferencesSensors Id="4f496de9-88c8-483b-82d4-36baaec11af9">
+            <infraredMoniker Id="e31c3e51-20b1-4963-ae4b-ac0ab7c6daae" />
+          </arduinoReferencesSensors>
+        </sensors>
+        <actuators>
+          <arduinoReferencesActuators Id="c495b87d-5958-4c30-a45f-118cc121ec5c">
+            <ledActuatorMoniker Id="e4a2edb0-173b-4f53-a011-ea1928dc0565" />
+          </arduinoReferencesActuators>
+          <arduinoReferencesActuators Id="56512038-57d1-4b78-9202-b88df0988de8">
+            <buzzerActuatorMoniker frequency="/2626ff91-2501-4bb5-80a3-512df40c72a9/800" />
+          </arduinoReferencesActuators>
+          <arduinoReferencesActuators Id="2b5517d3-f8d2-43e9-b6a3-df835fd2de8d">
+            <ledActuatorMoniker Id="13113312-ea53-4f42-b9b3-7bb97b3214fa" />
+          </arduinoReferencesActuators>
+        </actuators>
+        <contoller>
+          <arduinoReferencesContoller Id="7e203ebd-ce45-4783-8c43-722aba6602f1">
+            <contollerMoniker Id="e33497fe-c953-4a2e-ab30-74d9fbab53ef" />
+          </arduinoReferencesContoller>
+        </contoller>
+      </arduino>
+    </ioTModelHasArduino>
+  </arduino>
+  <sensors>
+    <ioTModelHasSensors Id="b6448222-bff6-4f1a-9b54-657e1bd1ccfc">
+      <infrared Id="e31c3e51-20b1-4963-ae4b-ac0ab7c6daae" name="irSensor" pin="3" mode="Input" />
+    </ioTModelHasSensors>
+  </sensors>
+  <contoller>
+    <ioTModelHasContoller Id="dcc953c8-8ea7-4271-98cf-da72765bedbc">
+      <contoller Id="e33497fe-c953-4a2e-ab30-74d9fbab53ef">
+        <iO>
+          <contollerHasIO Id="85f63da8-448b-42ad-9f22-43c2c3609089">
+            <iO Id="dbc4e47f-5e7f-4cd8-84fe-7ff23cb1a96a" type="HIGH" nameActOSen="ledRojo" order="3" deviceType="Led" />
+          </contollerHasIO>
+          <contollerHasIO Id="2f00de18-2a34-454b-906c-be06af6c85f8">
+            <iO Id="0dab9756-3942-4e1b-ab0c-da7efebb0a9f" type="LOW" nameActOSen="irSensor" order="0" deviceType="Sensor" varName="sensorMeasure" />
+          </contollerHasIO>
+          <contollerHasIO Id="6c93da43-ff98-4b1a-85a7-e845fed9cde5">
+            <iO Id="39004f8b-8f6d-4b33-bcc2-f1b3aabf3610" type="LOW" nameActOSen="buzzer" order="2" deviceType="Buzzer">
+              <actuators>
+                <iOReferencesActuators Id="89178b33-f894-4b6c-b286-a1b5bf505283">
+                  <buzzerActuatorMoniker frequency="/2626ff91-2501-4bb5-80a3-512df40c72a9/800" />
+                </iOReferencesActuators>
+              </actuators>
+            </iO>
+          </contollerHasIO>
+          <contollerHasIO Id="4ef4f01b-90d3-4413-bfe6-03dc85d5230f">
+            <iO Id="25badea0-4457-4f65-ab98-64541d2185de" type="LOW" nameActOSen="ledVerde" order="4" deviceType="Led" />
+          </contollerHasIO>
+          <contollerHasIO Id="3ab0db50-ad6a-45f1-a1ce-1116eecfd0ad">
+            <iO Id="d4a304a6-61b2-4be8-950f-e2336263d6fb" type="HIGH" nameActOSen="LedVerde" order="6" deviceType="Led" />
+          </contollerHasIO>
+          <contollerHasIO Id="c706e4fa-02bd-42bc-be25-16cc6b54f78a">
+            <iO Id="8d3667a8-5d2a-4ca2-bfc7-338330b01540" type="LOW" nameActOSen="LedRojo" order="7" deviceType="Led" />
+          </contollerHasIO>
+          <contollerHasIO Id="f465f535-b5c8-4f65-9ebb-cc84e78299a0">
+            <iO Id="838e5ba6-6dc6-4d8a-bac9-e5d389e68556" type="LOW" nameActOSen="DCMotor" order="9" deviceType="Motor" />
+          </contollerHasIO>
+        </iO>
+        <if>
+          <contollerHasIf Id="937af09d-d508-492a-881b-8e07c5224f64">
+            <if Id="f2358b5f-b56f-4f7c-8b3a-1287584cdb9f" operator1="sensorMeasure" condition="==" operator2="1" order="1" finalOrder="5">
+              <iO>
+                <ifReferencesIO Id="4267162d-d964-4631-8c56-fb8b0be3a28d">
+                  <iOMoniker Id="dbc4e47f-5e7f-4cd8-84fe-7ff23cb1a96a" />
+                </ifReferencesIO>
+                <ifReferencesIO Id="5b40609e-dc65-4515-9c12-20a7ffb640e4">
+                  <iOMoniker Id="39004f8b-8f6d-4b33-bcc2-f1b3aabf3610" />
+                </ifReferencesIO>
+                <ifReferencesIO Id="c5ba6b99-fdbc-415c-bc83-8fac5961dabe">
+                  <iOMoniker Id="25badea0-4457-4f65-ab98-64541d2185de" />
+                </ifReferencesIO>
+              </iO>
+            </if>
+          </contollerHasIf>
+          <contollerHasIf Id="ee614d84-9168-4fd5-ab30-911504cbd4e6">
+            <if Id="52713268-e399-49c9-9f9f-36dac395976f" operator1="sensorMeasure" condition="==" operator2="1" order="5" finalOrder="8">
+              <iO>
+                <ifReferencesIO Id="b47ec4e6-c223-4d32-9b95-d21a40ba4433">
+                  <iOMoniker Id="d4a304a6-61b2-4be8-950f-e2336263d6fb" />
+                </ifReferencesIO>
+                <ifReferencesIO Id="cd542282-94d7-4209-a9d0-3764607fa401">
+                  <iOMoniker Id="8d3667a8-5d2a-4ca2-bfc7-338330b01540" />
+                </ifReferencesIO>
+              </iO>
+            </if>
+          </contollerHasIf>
+        </if>
+        <delay>
+          <contollerHasDelay Id="72865eed-8f24-41d7-a4e8-037e2507e7c8">
+            <delay Id="43aee2ab-2a94-4b36-8e6b-1847e387f875" time="1000" order="8" />
+          </contollerHasDelay>
+        </delay>
+      </contoller>
+    </ioTModelHasContoller>
+  </contoller>
+  <actuators>
+    <ioTModelHasActuators Id="e9336731-eecf-413f-8d49-7e343807538d">
+      <ledActuator Id="e4a2edb0-173b-4f53-a011-ea1928dc0565" mode="Output" name="ledRojo" pin="5" />
+    </ioTModelHasActuators>
+    <ioTModelHasActuators Id="df4be308-415e-4b8a-b36f-3bf9f5966d93">
+      <buzzerActuator Id="204ef8a7-a616-46ce-9ec2-a501143483ab" frequency="800" duration="500" name="buzzer" pin="10" mode="tone" />
+    </ioTModelHasActuators>
+    <ioTModelHasActuators Id="43845574-183b-4afc-b6f2-643d51fb3e76">
+      <ledActuator Id="13113312-ea53-4f42-b9b3-7bb97b3214fa" mode="Output" name="ledVerde" pin="6" />
+    </ioTModelHasActuators>
+  </actuators>
+</ioTModel>

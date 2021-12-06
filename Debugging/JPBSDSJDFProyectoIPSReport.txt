@@ -1,0 +1,24 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".txt" #>
+<#@ ETSISIIoTLanguage processor="ETSISIIoTLanguageDirectiveProcessor" requires="fileName='Test.EIoTL'" #>
+
+<#
+   WriteLine("Welcome to my IoT system");
+   WriteLine("");
+   WriteLine("My system is composed of the devices that are detailed as follows."); 
+   WriteLine("Each one is composed of a set of sensors:");
+     if(this.IoTModel.Sensors.Count > 0)
+     {
+       foreach ( IoTDevice variotD in this.IoTModel.Sensors)
+       {
+		if(variotD.Sensor.Count > 0)
+            {
+		  foreach (Temperature varsen in variotD.Temperature)
+           {
+	        WriteLine("		- Temperature: "+ varsen.Name);
+           } //endforeach sensors
+		   }//endifsensores
+       }//endforeach devices
+  }//endifdevices
+
+ #>

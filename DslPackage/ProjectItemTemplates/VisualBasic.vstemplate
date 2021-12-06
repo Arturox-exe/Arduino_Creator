@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{954a74fb-48a3-4198-aa30-171881461437}</TemplateID>
+		<Name Package="{62b8ed43-6ca4-4989-a421-adea1a15954c}" ID="103"/>
+		<Description Package="{62b8ed43-6ca4-4989-a421-adea1a15954c}" ID="102"/>
+		<Icon Package="{62b8ed43-6ca4-4989-a421-adea1a15954c}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>JPBSDSJDFProyectoIPS.ISJProyIPS</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.ISJProyIPS">ISJProyIPS.ISJProyIPS</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.ISJProyIPS.diagram">ISJProyIPS.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+
